@@ -14,7 +14,11 @@ a++;
 console.log(++a);
 console.log(a);
 
-// string '' +
+// string ''
+
+// concatination +
+
+// string template literals `
 // precedence
 
 var b = (1 + 2) * 3;
