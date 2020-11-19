@@ -1,13 +1,4 @@
-let subtraction = function(){
-let a = 5;
-let b = 6;
-let sub = a - b;
-return sub;
 
-}
-
-
-console.log(subtraction());
 
 // let multiplication = ()=>{
 //     let a = 5;
@@ -19,21 +10,7 @@ console.log(subtraction());
 
 // console.log(multiplication());
 
-function addition (num1,num2){
-    let a = num1;
-    let b = num2
-    let sum = a + b;
-    return sum;
 
-}
-
-console.log(addition(100,20));
-
-function sayName(name){
-    console.log(name);
-}
-
-sayName('Precious');
 
 // let num2 = 13
 // function multiplication (num1, num2 ){
@@ -55,15 +32,15 @@ sayName('Precious');
 //     console.log(`${12} * ${2} = ${result}`);
 // }
 
-function calTimeTable(j , i){
+function calTimeTable(j){
 
-    for( i = 12;  i <= 12;  ){
+    for(let  i = 0;  i <=12; i++){
 
-        let num1 = j;
-        let num2 = i;
-        let result = j * i;
-         console.log(result);
-         return result;
+        let num1 = i;
+        let num2 = j;
+         result = i * j;
+         console.log(`${j} * ${i} = ${result}`);
+       
     }
 }
-calTimeTable(1000);
+calTimeTable(2);
