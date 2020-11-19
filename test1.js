@@ -55,9 +55,9 @@ sayName('Precious');
 //     console.log(`${12} * ${2} = ${result}`);
 // }
 
-function calTimeTable(j){
+function calTimeTable(j , i){
 
-    for( i = 0;   i <= 12; i++){
+    for( i = 12;  i <= 12;  ){
 
         let num1 = j;
         let num2 = i;
@@ -66,5 +66,4 @@ function calTimeTable(j){
          return result;
     }
 }
-calTimeTable(20);
-calTimeTable(10);
+calTimeTable(1000);
