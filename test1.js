@@ -34,13 +34,15 @@
 
 function calTimeTable(j){
 
-    for(let  i = 0;  i <=12; i++){
+    for(let  i = 1;  i <=12; i++){
 
         let num1 = i;
         let num2 = j;
-         result = i * j;
+      let  result = i * j;
          console.log(`${j} * ${i} = ${result}`);
+
        
     }
 }
-calTimeTable(2);
+calTimeTable(3.67);
+

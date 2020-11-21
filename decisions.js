@@ -1,33 +1,33 @@
-// // var count = 3;
-// // if (count == 4){
-// //     console.log('count is 4');
+var count = 3;
+if (count == 4){
+    console.log('count is 4');
 
 
-// // } else if (count  > 4) {
-// //     console.log('count is greaer than 4');
-// // } else if (count < 4){
-// //     console.log('count is less than 4')
-// // }
+} else if (count  > 4) {
+    console.log('count is greaer than 4');
+} else if (count < 4){
+    console.log('count is less than 4')
+}
 
-// // else {
-// //     console.log('count is NOT 4');
-// }
+else {
+    console.log('count is NOT 4');
+}
 
-// let hero = 'Batman';
-// switch (hero.toLowerCase()) {
-//     case 'superman':
-//         console.log('super strength');
-//         console.log('x-ray vision');
-//         break ;
+let hero = 'Batman';
+switch (hero.toLowerCase()) {
+    case 'superman':
+        console.log('super strength');
+        console.log('x-ray vision');
+        break ;
 
-//     case 'batman':
-//         console.log('Intelligence');
-//         console.log('fighting skills');
+    case 'batman':
+        console.log('Intelligence');
+        console.log('fighting skills');
 
-//         break ;
-//     default:
+        break ;
+    default:
 
-//         console.log('member of JLA');
+        console.log('member of JLA');
 
 
 
